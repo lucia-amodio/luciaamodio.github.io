@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LA Training | Entrenamiento Personal</title>
+  <title>Lucia Amodio | Entrenamiento Personal</title>
 
   <style>
     * {
@@ -14,239 +14,190 @@
     }
 
     body {
-      background-color: #f6f5f9;
-      color: #2b2b2b;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(135deg, #6a0dad, #9b4dff);
+      background: linear-gradient(135deg, #8b0000, #e10600);
       color: white;
-      padding: 90px 20px;
+      padding: 80px 20px;
       text-align: center;
     }
 
     header h1 {
-      font-size: 3rem;
+      font-size: 2.8rem;
       font-weight: 900;
       letter-spacing: 1px;
     }
 
     header p {
       font-size: 1.2rem;
-      margin-top: 14px;
-      max-width: 760px;
-      margin-inline: auto;
+      margin-top: 12px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     section {
       padding: 80px 20px;
-      max-width: 1150px;
+      max-width: 1100px;
       margin: auto;
     }
 
     .section-title {
       text-align: center;
-      margin-bottom: 60px;
+      margin-bottom: 55px;
     }
 
     .section-title h2 {
-      color: #6a0dad;
-      font-size: 2.4rem;
+      color: #e10600;
+      font-size: 2.3rem;
       font-weight: 800;
     }
 
     .services {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 35px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
     }
 
     .card {
-      background: #ffffff;
-      border-radius: 22px;
+      background: #141414;
+      border-radius: 20px;
       padding: 35px;
-      box-shadow: 0 18px 45px rgba(0,0,0,0.12);
-      transition: all 0.3s ease;
-      cursor: pointer;
-      border: 2px solid transparent;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+      transition: transform 0.3s ease;
+      border: 1px solid #1f1f1f;
     }
 
     .card:hover {
       transform: translateY(-8px);
-      border-color: #9b4dff;
+      border-color: #e10600;
     }
 
     .card h3 {
-      color: #6a0dad;
-      margin-bottom: 12px;
-      font-size: 1.5rem;
+      color: #ff2c2c;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
     }
 
-    .info {
-      display: none;
-      margin-top: 20px;
-      background: #f3efff;
-      padding: 20px;
-      border-radius: 15px;
-      border: 1px solid #9b4dff;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 18px;
-      padding: 14px 28px;
-      background: #6a0dad;
-      color: #ffffff;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .gallery {
+    .about {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
+      grid-template-columns: 1fr 1fr;
+      gap: 45px;
+      align-items: center;
     }
 
-    .gallery img {
+    .about img {
       width: 100%;
-      height: 340px;
-      object-fit: cover;
-      border-radius: 20px;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      border-radius: 22px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.8);
     }
 
     .cta {
-      background: linear-gradient(135deg, #6a0dad, #9b4dff);
-      color: white;
+      background: linear-gradient(135deg, #8b0000, #e10600);
       text-align: center;
-      padding: 90px 20px;
+      padding: 80px 20px;
     }
 
     .cta h2 {
-      font-size: 2.6rem;
+      color: #ffffff;
+      font-size: 2.4rem;
       margin-bottom: 20px;
       font-weight: 900;
     }
 
     .cta a {
       display: inline-block;
-      background-color: #ffffff;
-      color: #6a0dad;
-      padding: 16px 36px;
+      background-color: #000000;
+      color: #ffffff;
+      padding: 16px 34px;
       border-radius: 40px;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1rem;
+      border: 2px solid #ffffff;
+      transition: all 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #ffffff;
+      color: #e10600;
     }
 
     footer {
-      background-color: #ffffff;
+      background-color: #000000;
       text-align: center;
-      padding: 30px;
+      padding: 25px;
       font-size: 0.9rem;
-      color: #666;
+      color: #bdbdbd;
+    }
+
+    @media (max-width: 768px) {
+      .about {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>LA Training</h1>
-  <p>
-    Entrenamiento personal · Rutinas online y presenciales · Clases individuales y grupales<br>
-    <strong>Lucia Amodio · Instructora certificada</strong>
-  </p>
-</header>
+  <header>
+    <h1>Lucia Amodio</h1>
+    <p>Instructora de entrenamiento personal certificada · Rutinas presenciales y online · Clases grupales e individuales</p>
+  </header>
 
-<section>
-  <div class="section-title">
-    <h2>Servicios</h2>
-  </div>
-
-  <div class="services">
-
-    <div class="card" onclick="toggleInfo('rutinas')">
-      <h3>Rutinas Personalizadas</h3>
-      <p>Planes diseñados según tus objetivos.</p>
-      <div id="rutinas" class="info">
-        <p>
-          Rutinas adaptadas a tu nivel, objetivos y disponibilidad,
-          para entrenar en casa o en gimnasio.
-        </p>
-        <a href="https://wa.me/5491123596444?text=Hola%20LA%20Training,%20quiero%20información%20sobre%20rutinas%20personalizadas"
-           class="btn" target="_blank">
-          Consultar por WhatsApp
-        </a>
-      </div>
+  <section>
+    <div class="section-title">
+      <h2>Servicios</h2>
     </div>
 
-    <div class="card" onclick="toggleInfo('individual')">
-      <h3>Entrenamiento Individual</h3>
-      <p>Seguimiento uno a uno.</p>
-      <div id="individual" class="info">
-        <p>
-          Clases personalizadas con corrección técnica,
-          planificación y acompañamiento constante.
-        </p>
-        <a href="https://wa.me/5491123596444?text=Hola%20LA%20Training,%20estoy%20interesada%20en%20entrenamiento%20individual"
-           class="btn" target="_blank">
-          Consultar por WhatsApp
-        </a>
+    <div class="services">
+      <div class="card">
+        <h3>Rutinas Personalizadas</h3>
+        <p>Planes de entrenamiento diseñados según tus objetivos, nivel y estilo de vida.</p>
+      </div>
+
+      <div class="card">
+        <h3>Entrenamiento Individual</h3>
+        <p>Clases uno a uno con seguimiento personalizado y corrección técnica constante.</p>
+      </div>
+
+      <div class="card">
+        <h3>Clases Grupales</h3>
+        <p>Entrenamientos intensos, dinámicos y motivadores para potenciar resultados.</p>
       </div>
     </div>
+  </section>
 
-    <div class="card" onclick="toggleInfo('grupal')">
-      <h3>Clases Grupales</h3>
-      <p>Entrenamientos dinámicos y motivadores.</p>
-      <div id="grupal" class="info">
-        <p>
-          Clases grupales para entrenar con constancia,
-          motivación y energía en equipo.
-        </p>
-        <a href="https://wa.me/5491123596444?text=Hola%20LA%20Training,%20quiero%20información%20sobre%20clases%20grupales"
-           class="btn" target="_blank">
-          Consultar por WhatsApp
-        </a>
-      </div>
+  <section>
+    <div class="section-title">
+      <h2>Sobre mí</h2>
     </div>
 
-  </div>
-</section>
+    <div class="about">
+      <p>
+        Soy Lucia Amodio, instructora de entrenamiento personal certificada. Trabajo con un enfoque fuerte, disciplinado y
+        realista, ayudando a mis alumnos a mejorar su físico, fuerza y confianza a través de entrenamientos efectivos,
+        tanto presenciales como online.
+      </p>
 
-<section>
-  <div class="section-title">
-    <h2>Entrenamientos</h2>
-  </div>
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438" alt="Entrenamiento fitness" />
+    </div>
+  </section>
 
-  <div class="gallery">
-    <!-- Mujer -->
-    <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883" alt="Entrenamiento mujer">
-    <!-- Hombre -->
-    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Entrenamiento hombre">
-  </div>
-</section>
+  <section class="cta">
+    <h2>¿Lista para entrenar en serio?</h2>
+    <p>Escribime y empezamos hoy</p><br />
+    <a href="https://wa.me/5491123596444?text=Hola%20Lucia,%20quiero%20info%20sobre%20entrenamiento%20personal%20%F0%9F%92%AA">Contactar por WhatsApp</a>
+  </section>
 
-<section class="cta">
-  <h2>¿Listos para entrenar?</h2>
-  <p>Escribinos y empezamos</p><br>
-  <a href="https://wa.me/5491123596444?text=Hola%20LA%20Training,%20quiero%20empezar%20a%20entrenar">
-    Contactar por WhatsApp
-  </a>
-</section>
-
-<footer>
-  © 2026 LA Training · Entrenamiento Personal
-</footer>
-
-<script>
-  function toggleInfo(id) {
-    const info = document.getElementById(id);
-    info.style.display = info.style.display === "block" ? "none" : "block";
-  }
-</script>
+  <footer>
+    © 2026 Lucia Amodio · Entrenamiento Personal
+  </footer>
 
 </body>
 </html>
